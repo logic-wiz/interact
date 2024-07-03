@@ -6,4 +6,4 @@ UNBUFFER := `(which unbuffer 2>/dev/null >/dev/null && echo unbuffer) || echo ""
 all:
 
 publish:
-	cd dart/dl_dart && {{DART}} pub publish
+	{{DART}} pub publish
